@@ -69,6 +69,11 @@ body {
     color: #ECD6C4;
 }
 
+.main-content-written-button:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+    cursor: pointer;
+}
+
 .main-content-written-button {
     background-color: #ECD6C4;
     width: 11.563rem;
@@ -80,4 +85,44 @@ body {
     font-weight: 400;
     font-size: 1.5rem;
     color: #2F2325;
+}
+
+.main-content-image {
+    height: 26.875rem;
+}
+
+.secondary-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+.secondary-content-title {
+    border-top: 0.025rem solid #FFF2E7;
+    padding-top: 3rem;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #FFF2E7;
+    margin-bottom: 1rem;
+}
+
+.secondary-content-paragraph {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 1.125rem;
+    color: #ECD6C4;
+}
+
+.footer {
+    padding: 2rem;
+    border-top: 0.025rem solid #FFF2E7;
+}
+
+.footer-image {
+    height: 3rem;
+    display: block;
+    margin: 0 auto;
 }
